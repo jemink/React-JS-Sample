@@ -20,11 +20,9 @@ class SwmsList extends Component {
 
     constructor(props) {
         super(props);
-
         this.state = {
             openSnackbar:false
         };
-
         this.handleAddClicked = this.handleAddClicked.bind(this);
     }
 
